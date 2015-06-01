@@ -12,7 +12,6 @@ public class ReverseInteger {
         return reversed;
     }
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		System.out.println(new ReverseInteger().reverse(1534236469));
 	}
 

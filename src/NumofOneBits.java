@@ -23,7 +23,6 @@ public class NumofOneBits {
 	
 
 	public static void main(String[] args) {
-		// TODO go testcase here
 		NumofOneBits.hammingWeight(0b10000000000000000000000000000000);
 	}
 

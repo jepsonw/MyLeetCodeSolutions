@@ -21,7 +21,6 @@ public class RotateArray {
         }
     }
 	public static void main(String[] args) throws Exception {
-		// TODO Auto-generated method stub
 		int[]nums={1,2,3,4,5};
 		new RotateArray().rotate(nums, 3);
 		for(int i:nums){
