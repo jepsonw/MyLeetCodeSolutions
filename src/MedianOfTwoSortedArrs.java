@@ -2,7 +2,8 @@
  * Created by kaijiezhou on 6/14/15.
  */
 public class MedianOfTwoSortedArrs {
-    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+    //TODO
+   /* public double findMedianSortedArrays(int[] nums1, int[] nums2) {//only works when nums1.length==nums2.length
         int s1=0, s2=0, e1=nums1.length-1,e2=nums2.length-1;
         int length1=nums1.length, length2=nums2.length;
 
@@ -42,6 +43,9 @@ public class MedianOfTwoSortedArrs {
         }else
             median=(double)array[array.length/2];
         return median;
+    }*/
+    public double findMedianSortedArrays(int[]nums1, int[]nums2){
+        return 0;
     }
 
     public static void main(String[] args) {
