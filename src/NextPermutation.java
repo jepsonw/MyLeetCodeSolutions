@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * Created by kaijiezhou on 7/2/15.
  */
@@ -32,5 +36,15 @@ public class NextPermutation {
             ++start;
             --end;
         }
+    }
+
+    public static void main(String[] args) {
+        int[] nums={1,3,4,2};
+        new NextPermutation().nextPermutation(nums);
+        for(int i:nums){
+            System.out.println(i);
+        }
+
+
     }
 }
